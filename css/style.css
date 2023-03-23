@@ -1,0 +1,49 @@
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Poppins";
+  src: local("Poppins"), local("Poppins-Regular"),
+  url(../fonts/Poppins-Regular.woff) format("woff"),
+  url(../fonts/Poppins-Regular.woff2) format("woff2");
+}
+@font-face {
+  font-style: normal;
+  font-weight: 500;
+  font-family: "Poppins";
+  src: local("Poppins"), local("Poppins-Medium"),
+  url(../fonts/Poppins-Medium.woff) format("woff"),
+  url(../fonts/Poppins-Medium.woff2) format("woff2");
+}
+@font-face {
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Poppins";
+  src: local("Poppins"), local("Poppins-Bold"),
+  url(../fonts/Poppins-Bold.woff) format("woff"),
+  url(../fonts/Poppins-Bold.woff2) format("woff2");
+}
+@font-face {
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Poppins";
+  src: local("Poppins"), local("Poppins-SemiBold"),
+  url(../fonts/Poppins-SemiBold.woff) format("woff"),
+  url(../fonts/Poppins-SemiBold.woff2) format("woff2");
+}
+
+body {
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 38px;
+}
+.nav_link {
+  font-weight: 400;
+  color: #333333;
+  font-size: 16px;
+}
+.nav_link:hover,
+.nav_link:active,
+.nav_link:focus {
+   font-weight: 600;
+}
