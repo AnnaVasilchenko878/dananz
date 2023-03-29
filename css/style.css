@@ -47,3 +47,45 @@ body {
 .nav_link:focus {
    font-weight: 600;
 }
+.btn-contact {
+  background-color: #2C3878;
+}
+.header {
+  margin-bottom: 100px;
+}
+.works-counter {
+  background-color: #2C3878;
+  list-style: none;
+  padding: 40px 45px 44px 45px;
+  margin-top: 100px;
+}
+
+.h1 {
+  position: relative;
+  font-size: 72px;
+  padding-right: 73px;
+}
+
+.h1::before {
+  content: "";
+  width: 683px;
+  height: 2px;
+  top: 40px;
+  left: 593px;
+  position: absolute;
+  background-color: black;
+}
+
+.reserved_wrapper {
+  transform: translate(49px , 73px);
+}
+.reserved {
+  transform: rotate(-90deg);
+}
+.promo {
+  background-image: url('../img/promo-kitchen-img.jpg');
+  background-size: 100%;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  padding-bottom: 300px;
+}
