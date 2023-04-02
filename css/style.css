@@ -1,3 +1,5 @@
+@import '../bootstrap/dist/css/bootstrap-utilities.min.css';
+
 @font-face {
   font-style: normal;
   font-weight: 400;
@@ -37,6 +39,8 @@ body {
   font-size: 18px;
   line-height: 38px;
 }
+
+
 .nav_link {
   font-weight: 400;
   color: #333333;
@@ -53,6 +57,9 @@ body {
 .header {
   margin-bottom: 100px;
 }
+.nav {
+  list-style-type: none;
+}
 .works-counter {
   background-color: #2C3878;
   list-style: none;
@@ -66,15 +73,15 @@ body {
   padding-right: 73px;
 }
 
-.h1::before {
+/* .h1::before {
   content: "";
   width: 683px;
   height: 2px;
   top: 40px;
   left: 593px;
   position: absolute;
-  background-color: black;
-}
+  background-color: var(--bs-emphasis-color);
+} */
 
 .reserved_wrapper {
   transform: translate(49px , 73px);
@@ -88,4 +95,26 @@ body {
   background-position-y: bottom;
   background-repeat: no-repeat;
   padding-bottom: 300px;
+  margin-bottom: 150px;
+}
+.about_header {
+  position: relative;
+  font-size: 18px;
+}
+.about_header:before {
+  content: "";
+  position: absolute;
+  width: 529px;
+  height: 2px;
+  top: 10px;
+  left: 100px;
+  background-color: var(--bs-emphasis-color);
+}
+.blockquote {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 60px;
+  padding-right: 69px;
+  padding-left: 65px;
+  margin-bottom: 60px;
 }
