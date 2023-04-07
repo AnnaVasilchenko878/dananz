@@ -1,37 +1,6 @@
 @import '../bootstrap/dist/css/bootstrap-utilities.min.css';
-
-@font-face {
-  font-style: normal;
-  font-weight: 400;
-  font-family: "Poppins";
-  src: local("Poppins"), local("Poppins-Regular"),
-  url(../fonts/Poppins-Regular.woff) format("woff"),
-  url(../fonts/Poppins-Regular.woff2) format("woff2");
-}
-@font-face {
-  font-style: normal;
-  font-weight: 500;
-  font-family: "Poppins";
-  src: local("Poppins"), local("Poppins-Medium"),
-  url(../fonts/Poppins-Medium.woff) format("woff"),
-  url(../fonts/Poppins-Medium.woff2) format("woff2");
-}
-@font-face {
-  font-style: normal;
-  font-weight: 600;
-  font-family: "Poppins";
-  src: local("Poppins"), local("Poppins-Bold"),
-  url(../fonts/Poppins-Bold.woff) format("woff"),
-  url(../fonts/Poppins-Bold.woff2) format("woff2");
-}
-@font-face {
-  font-style: normal;
-  font-weight: 700;
-  font-family: "Poppins";
-  src: local("Poppins"), local("Poppins-SemiBold"),
-  url(../fonts/Poppins-SemiBold.woff) format("woff"),
-  url(../fonts/Poppins-SemiBold.woff2) format("woff2");
-}
+@import 'components/base/variables.css';
+@import 'components/base/fonts.css';
 
 body {
   font-family: "Poppins", "Segoe UI", sans-serif;
@@ -43,7 +12,7 @@ body {
 
 .nav_link {
   font-weight: 400;
-  color: #333333;
+  color: var(--color-dark-grey);
   font-size: 16px;
 }
 .nav_link:hover,
@@ -52,7 +21,7 @@ body {
    font-weight: 600;
 }
 .btn-contact {
-  background-color: #2C3878;
+  background-color: var(--color-primary-blue);
 }
 .header {
   margin-bottom: 100px;
@@ -61,16 +30,24 @@ body {
   list-style-type: none;
 }
 .works-counter {
-  background-color: #2C3878;
+  background-color: var(--color-primary-blue);
   list-style: none;
   padding: 40px 45px 44px 45px;
   margin-top: 100px;
+}
+.disable {
+  display: none;
+}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+  .works-counter {
+    margin-top: -22px;
+  }
 }
 
 .h1 {
   position: relative;
   font-size: 72px;
-  padding-right: 73px;
 }
 
 /* .h1::before {
@@ -97,6 +74,7 @@ body {
   padding-bottom: 300px;
   margin-bottom: 150px;
 }
+
 .about_header {
   position: relative;
   font-size: 18px;
@@ -104,7 +82,7 @@ body {
 .about_header:before {
   content: "";
   position: absolute;
-  width: 529px;
+  width: 75%;
   height: 2px;
   top: 10px;
   left: 100px;
