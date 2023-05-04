@@ -7,6 +7,8 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 38px;
+  color: var(--color-light-grey);
+
 }
 
 /*  header */
@@ -40,6 +42,7 @@ body {
   font-size: 72px;
   margin-bottom: 80px;
   margin-right: 6%;
+  color: var(--bs-black);
 }
 
 @media(min-width: 1200px) {
@@ -101,6 +104,8 @@ body {
     width: 21%;
     padding: 0;
     margin-left: 4%;
+    color: var(--bs-black);
+
 }
 @media(min-width: 1200px) {
   .reserved {
@@ -138,11 +143,13 @@ body {
 
 /* about */
 
-.about_header {
+.about-header {
   position: relative;
   font-size: 18px;
+  color: var(--bs-black);
+
 }
-.about_header:before {
+.about-header:before {
   content: "";
   position: absolute;
   width: 75%;
@@ -158,7 +165,46 @@ body {
   padding-right: 69px;
   padding-left: 65px;
   margin-bottom: 60px;
+  color: var(--bs-black);
 }
-.employer-position {
-  color: var(--color-light-grey);
+.about-content-wrapper-inner {
+  position: relative;
+}
+@media(min-width: 1200px) {
+  .employer-wrapper {
+    background-color: var(--bs-white); 
+      position: absolute;
+      top: 21px;
+      left: -174px;
+      padding: 4px 52px 4px 20px;
+      width: 350px;
+  }
+}
+
+.employer-name {
+  color: var(--bs-black);
+}
+@media(min-width: 1200px) {
+
+  .employer-name {
+    font-size: 18px;
+    margin-bottom: -5px;
+  }
+  .img-argo {
+    width: 50px;
+    height: 56px;
+  }
+  .employer-content-wrapper {
+    margin-top: 40%;
+    margin-left: 6%;
+  }
+
+}
+
+.btn-about {
+  color: var(--bs-white);
+  width: 200px;
+  padding: 14px 32px;
+  background-color: var(--color-primary-blue);
+  border-radius: 0;
 }
