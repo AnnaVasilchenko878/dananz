@@ -142,14 +142,18 @@ body {
 }
 
 /* about */
-
-.about-header {
+.about {
+  margin-bottom: 14%;
+}
+.about-header,
+.services-title  {
   position: relative;
   font-size: 18px;
   color: var(--bs-black);
 
 }
-.about-header:before {
+.about-header:before,
+.services-title:before {
   content: "";
   position: absolute;
   width: 75%;
@@ -207,4 +211,28 @@ body {
   padding: 14px 32px;
   background-color: var(--color-primary-blue);
   border-radius: 0;
+}
+.services {
+  position:  relative;
+}
+.services-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  counter-reset: list-item 0;
+  color: var(--color-dark-grey);
+}
+.services-item {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.services-item::before {
+  content: "0"counter(list-item);
+  counter-increment: list-item;
+  position: absolute;
+  top: -4px;
+  left: -34px;
+  font-size: 18px;
 }
