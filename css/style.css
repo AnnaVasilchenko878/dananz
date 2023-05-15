@@ -147,7 +147,8 @@ body {
 }
 .about-header,
 .services-title,
-.product-title {
+.product-title,
+.material-title {
   position: relative;
   font-size: 18px;
   color: var(--bs-black);
@@ -155,7 +156,8 @@ body {
 }
 .about-header::before,
 .services-title::before,
-.product-title::before {
+.product-title::before,
+.material-title::before {
   content: "";
   position: absolute;
   width: 75%;
@@ -168,7 +170,8 @@ body {
 @media(min-width: 992px) {
   .about-header::before,
   .services-title::before,
-  .product-title::before {
+  .product-title::before
+  .material-title::before {
     width: 40%;
   }
 }
@@ -331,4 +334,20 @@ body {
   top: 1px;
   font-weight: 700;
   font-size: 25px
+}
+
+/* material */
+.material-subtitle {
+  font-size: 24px;
+  color: var(--color-dark-grey);
+}
+ @media(max-height: 992px) {
+  .material-gallery {
+    display: none;
+  }
+ }
+.material-link {
+  color: var(--color-dark-grey);
+  border: 1px solid var(--color-dark-grey);
+  width: 33%;
 }
