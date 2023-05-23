@@ -341,13 +341,16 @@ body {
   font-size: 24px;
   color: var(--color-dark-grey);
 }
- @media(max-height: 992px) {
-  .material-gallery {
-    display: none;
-  }
- }
+
 .material-link {
   color: var(--color-dark-grey);
   border: 1px solid var(--color-dark-grey);
   width: 33%;
+}
+.material-gallery {
+  height: 500px;
+  justify-content: center;
+}
+.material-link {
+  width: 50%;
 }

@@ -26,7 +26,7 @@
             <a class="nav_link text-decoration-none" href="#">Abount us</a>
           </li>
           <li class="col-xxl-2 col-xl-2 col-lg-2">
-            <a class="nav_link -none" href="#">Services</a>
+            <a class="nav_link text-decoration-none" href="#">Services</a>
           </li>
           <li class="col-xxl-2 col-xl-2 col-lg-2">
             <a class="nav_link text-decoration-none" href="#">Our teams</a>
@@ -46,7 +46,7 @@
       </header>
       <section class="promo row d-sm-block d-lg-flex align-items-start">
         <h1 class="h1 fw-bolder text-sm-center col-sm-12 col-md-12 col-lg-6 col-xl-7 col-xxl-6 text-xl-start">Design your interor with high quality.</h1>
-        <ul class="works-counter text-white text-center d-sm-flex justify-content-sm-between d-md-flex justify-content-md-between flex-lg-column col-sm-12 col-md-12 col-lg-4 col-xl-3 col-xxl-2 pt-5">
+        <ul class="works-counter text-white text-center d-sm-flex justify-content-s-around d-md-flex justify-content-md-between flex-lg-column col-sm-12 col-md-12 col-lg-4 col-xl-3 col-xxl-2 pt-5">
           <li class="works_item">
             <h3>350+</h3>
             <p>Project Completed</p>
@@ -159,20 +159,24 @@
       </section>
       <section class="material row justify-content-sm-center">
         <h2 class="material-title text-uppercase fw-bold mb-5">Material</h2>
-        <p class="material-subtitle fw-bold text-sm-cent">Choice of materials for quality furniture.</p>
-        <p class="material-description text-center mb-sm-5">You can custom the material as desired. And our furniture uses the best materials and selected quality materials.</p>
-        <a class="material-link  text-center text-decoration-none text-capitalize" href="#">See materials</a>
-        <ul class="material-gallery">
-          <li class="material-item">
-            <img class="material-img" src="img/img-material.jpg" alt="">
-          </li>
-          <li class="material-item">
-            <img class="material-img" src="img/img-skin.jpg" alt="">
-          </li>
-          <li class="material-item">
-            <img class="material-img" src="img/img-work.jpg" alt="">
-          </li>
-        </ul>
+        <div class="material-wrapper row">
+          <div class="material-wrapper-inner col-lg-5 px-lg-4 d-flex flex-column align-items-center">
+            <p class="material-subtitle fw-bold text-sm-center">Choice of materials for quality furniture.</p>
+            <p class="material-description text-center mb-sm-5">You can custom the material as desired. And our furniture uses the best materials and selected quality materials.</p>
+            <a class="material-link text-center text-decoration-none text-capitalize" href="#">See materials</a>
+          </div>
+          <ul class="material-gallery d-sm-none d-lg-flex col-lg-7 flex-column flex-wrap list-unstyled justify-conten-around">
+            <li class="material-item pt-5">
+              <img class="material-img" width="250" height="350" src="img/img-material.jpg" alt="">
+            </li>
+            <li class="material-item second mb-4 ps-3">
+              <img class="material-img" width ="150" height="150" src="img/img-skin.jpg" alt="">
+            </li>
+            <li class="material-item">
+              <img class="material-img" width="200" height="180" src="img/img-work.jpg" alt="">
+            </li>
+          </ul>
+        </div>
       </section>
     </div>
   </body>
