@@ -397,3 +397,18 @@ body {
   color: var(--color-dark-grey);
   cursor: pointer;
 }
+@media(min-width: 992px) {
+  .contact {
+    padding: 53px 70px;
+  }
+  .contact-subtitle {
+    margin-right: 113px;
+  }
+}
+@media(min-width: 992px) {
+  .contact-subtitle {
+    margin-right: 120px;
+    font-size: 36px;
+    line-height: 59px;
+  }
+}
