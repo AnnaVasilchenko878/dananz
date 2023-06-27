@@ -12,14 +12,14 @@ body {
 }
 
 /*  header */
-.nav_link {
+.nav-link {
   font-weight: 400;
   color: var(--color-dark-grey);
   font-size: 16px;
 }
-.nav_link:hover,
-.nav_link:active,
-.nav_link:focus {
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus {
    font-weight: 600;
 }
 .btn-contact {
@@ -28,9 +28,7 @@ body {
 .header {
   margin-bottom: 100px;
 }
-.nav {
-  list-style-type: none;
-}
+
 .disable {
   display: none;
 }
@@ -38,7 +36,6 @@ body {
 /* promo */
 
 .h1 {
-  position: relative;
   font-size: 72px;
   margin-bottom: 80px;
   margin-right: 6%;
@@ -71,7 +68,6 @@ body {
 
 .works-counter {
   background-color: var(--color-primary-blue);
-  list-style: none;
   padding: 27px 7px;
 }
 
@@ -82,7 +78,7 @@ body {
   }
 }
 
-.works_item {
+.works-item {
   padding: 6px;
 }
 
@@ -102,7 +98,6 @@ body {
 .reserved {
     transform: translateY(210px) rotate(270deg); 
     width: 21%;
-    padding: 0;
     margin-left: 4%;
     color: var(--bs-black);
 
@@ -127,7 +122,6 @@ body {
   background-repeat: no-repeat;
   padding-bottom: 44%;
   margin-bottom: 75px;
-  flex-wrap: nowrap;
 }
 @media(min-width: 992px) {
   .promo {
@@ -149,7 +143,6 @@ body {
 .services-title,
 .product-title,
 .material-title {
-  position: relative;
   font-size: 18px;
   color: var(--bs-black);
 
@@ -175,27 +168,36 @@ body {
     width: 40%;
   }
 }
-.blockquote {
+.about-blockquote {
   font-size: 1.4rem;
-  font-weight: 700;
   line-height: 2rem;
   padding-right: 69px;
   padding-left: 65px;
   margin-bottom: 60px;
   color: var(--bs-black);
 }
-.about-content-wrapper-inner {
-  position: relative;
+
+@media(min-width: 1200px) {
+  .about-blockquote {
+    padding: 0 170px;
+  }
 }
+
+
 @media(min-width: 1200px) {
   .employer-wrapper {
-    background-color: var(--bs-white); 
+      background-color: var(--bs-white); 
       position: absolute;
       top: 21px;
       left: -174px;
       padding: 4px 52px 4px 20px;
       width: 350px;
   }
+}
+
+.employer-content-wrapper {
+  text-align: justify;
+  padding-right: 8%;
 }
 
 .employer-name {
@@ -215,7 +217,6 @@ body {
     margin-top: 40%;
     margin-left: 6%;
   }
-
 }
 
 .btn-about {
@@ -223,10 +224,8 @@ body {
   width: 200px;
   padding: 14px 32px;
   background-color: var(--color-primary-blue);
-  border-radius: 0;
 }
 .services {
-  position:  relative;
   margin-bottom: 12%;
 }
 
@@ -236,7 +235,6 @@ body {
   }
   .services-wrapper {
     width: 65%;
-    z-index: 1;
     background-color: var(--bs-white); 
   }
 }
@@ -254,19 +252,10 @@ body {
 }
 .services-list,
 .product-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
   counter-reset: list-item 0;
   color: var(--color-dark-grey);
 }
-.services-item,
-.product-item {
-  display: flex;
-  position: relative;
-  justify-content: space-between;
-  align-items: baseline;
-}
+
 .services-item::before,
 .product-item::before {
   content: "0"counter(list-item);
@@ -287,9 +276,7 @@ body {
 /* product */
 @media(min-width: 992px) {
   .product-wrapper {
-    display: flex;
     padding-left: 5%;
-    justify-content: space-between;
   }
 }
 .product-subtitle {
@@ -363,7 +350,6 @@ body {
 }
 .material-gallery {
   height: 500px;
-  justify-content: center;
 }
 
 .material-item {
@@ -420,6 +406,7 @@ body {
 @media(min-width: 992px) {
   .footer{
     height: 400px;
+    padding: 0 4%; 
   }
 }
 @media(min-width: 1400px) {
@@ -430,6 +417,7 @@ body {
 .logo-footer {
   padding-top: 60px;
 }
+
 .logo-subtitle {
   color: var(--color-dark-grey);
   font-size: 24px;
@@ -453,8 +441,8 @@ body {
 }
 .subscribe-subtitle {
   color: var(--color-dark-grey);
-  position: relative;
 }
+
 .subscribe-subtitle:before {
   content: "";
   width: 14px;
@@ -478,9 +466,6 @@ body {
   }
 }
 
-.subscribe-form {
-  position: relative;
-}
 .subscribe-input {
   border: none;
   border-bottom: 1px solid var(--color-border);
@@ -494,14 +479,20 @@ body {
 .subscribe-btn {
   border: none;
   background-color: transparent;
-  position: absolute;
-  right: 19%;
+  right: 17%;
 }
-@media(max-width: 768px) {
+@media(min-width: 768px) {
   .subscribe-btn {
-    right: 23%;
+    right: 24%;
   }
 }
+
+@media(min-width: 1200px) {
+  .subscribe-btn {
+    right: 8%;
+  }
+}
+
 .subscribe-icon {
   width: 25px;
   height: 25px;
@@ -515,6 +506,5 @@ body {
 .social-item {
   background-color: var(--color-grey);
   padding: 2px 10px;
-  border-radius: 50%;
   margin-right: 2%;
 }
