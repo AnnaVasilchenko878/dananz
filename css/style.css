@@ -142,7 +142,8 @@ body {
 .about-header,
 .services-title,
 .product-title,
-.material-title {
+.material-title,
+.achievement-title {
   font-size: 18px;
   color: var(--bs-black);
 
@@ -150,7 +151,8 @@ body {
 .about-header::before,
 .services-title::before,
 .product-title::before,
-.material-title::before {
+.material-title::before,
+.achievement-title::before {
   content: "";
   position: absolute;
   width: 75%;
@@ -163,8 +165,9 @@ body {
 @media(min-width: 992px) {
   .about-header::before,
   .services-title::before,
-  .product-title::before
-  .material-title::before {
+  .product-title::before,
+  .material-title::before,
+  .achievement-title::before {
     width: 40%;
   }
 }
@@ -507,4 +510,72 @@ body {
   background-color: var(--color-grey);
   padding: 2px 10px;
   margin-right: 2%;
+}
+
+/* about.html */
+/* about */
+.header-about {
+  margin-bottom: 50px;
+}
+.about-promo {
+  color: var(--bs-black);
+  margin-bottom: 10%;
+}
+.about-promo-title {
+  font-size: 56px;
+  line-height: 74px;
+}
+.about-promo-subtitle {
+  line-height: 30px;
+  padding: 0 8%; 
+}
+
+@media(min-width: 992px) {
+  .about-promo-subtitle {
+      padding: 0 20%;
+      margin-bottom: 5%;
+  }
+}
+
+@media(min-width: 1200px) {
+  .about-promo-subtitle {
+      padding: 0 24%;
+  }
+}
+
+@media(min-width: 1400px) {
+  .about-promo-subtitle {
+      padding: 0 28%;
+  }
+}
+@media(min-width: 768px) {
+  .about-img {
+    width: 675px;
+    height: 450px;
+  }
+}
+@media(min-width: 992px) {
+  .about-img {
+    width: 800px;
+    height: 475px;
+  }
+}
+@media(min-width: 1200px) {
+  .about-img {
+    width: 1000px;
+  }
+}
+@media(min-width: 1400px) {
+  .about-img {
+    width: 1200px;
+  }
+}
+
+/* achievement  */
+.achievement {
+  position: relative;
+}
+.achievement-title::before {
+  width: 71%;
+  left: 27%;
 }
