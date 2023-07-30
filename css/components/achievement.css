@@ -1,0 +1,52 @@
+.achievement {
+  position: relative;
+  margin-bottom: 9%;
+}
+.achievement-title::before {
+  width: 71%;
+  left: 27%;
+}
+
+@media(min-width: 992px) {
+  .achievement-title::before {
+    width: 46%;
+    left: 17%;
+  }
+  .achievent-subtitle {
+    padding-right: 45%;
+  }
+}
+
+@media(min-width: 1200px) {
+  .achievent-subtitle {
+    padding-right: 55%;
+  }
+}
+
+@media(min-width: 1400px) {
+  .achievent-subtitle {
+    padding-right: 61%;
+  }
+}
+
+.achievement-img {
+  width: 100%;
+
+}
+@media(min-width: 768px) {
+  .achievement-img {
+    height: 450px;
+  }
+}
+@media(min-width: 992px) {
+  .achievement-img {
+    width: 77% ;
+    height: 508px; 
+  }
+}
+ 
+@media(min-width: 1400px) {
+  .achievement-img {
+    width: 1200px;
+  }
+}

@@ -1,0 +1,40 @@
+.material {
+  margin-bottom: 100px; 
+}
+
+.material-wrapper-inner {
+  padding: 0 61px;
+}
+
+.material-subtitle {
+  font-size: 24px;
+  color: var(--color-dark-grey);
+}
+@media(min-width: 992px) {
+  .material-subtitle {
+    font-size: 36px;
+    line-height: 62px;
+  }
+}
+
+.material-link {
+  color: var(--color-dark-grey);
+  border: 1px solid var(--color-dark-grey);
+  padding: 14px 32px;
+}
+.material-gallery {
+  height: 500px;
+}
+
+.material-item {
+  width: 250px;
+  margin-right: -5px;
+}
+@media(min-width: 1200px) {
+  .material-gallery {
+    padding-left: 112px;
+  }
+  .material-item:first-child {
+    margin-right: 27px;
+  }
+}

@@ -1,0 +1,29 @@
+.contact {
+  background-color: var(--color-primary-blue);
+  padding: 53px 61px;
+}
+.contact-subtitle {
+  font-size: 24px;
+  color: var(--bs-white);
+}
+.contact-link {
+  padding: 14px 32px;
+  background-color: var(--bs-white);
+  color: var(--color-dark-grey);
+  cursor: pointer;
+}
+@media(min-width: 992px) {
+  .contact {
+    padding: 53px 70px;
+  }
+  .contact-subtitle {
+    margin-right: 113px;
+  }
+}
+@media(min-width: 992px) {
+  .contact-subtitle {
+    margin-right: 120px;
+    font-size: 36px;
+    line-height: 59px;
+  }
+}

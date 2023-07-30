@@ -1,0 +1,20 @@
+.nav-link {
+  font-weight: 400;
+  color: var(--color-dark-grey);
+  font-size: 16px;
+}
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus {
+   font-weight: 600;
+}
+.btn-contact {
+  background-color: var(--color-primary-blue);
+}
+.header {
+  margin-bottom: 100px;
+}
+
+.disable {
+  display: none;
+}

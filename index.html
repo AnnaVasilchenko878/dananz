@@ -11,12 +11,12 @@
   <body>
     <div class="container no-gutter">
       <header class="header d-flex py-4 text-capitalize">
-        <div class="logo-wrapper col-sm-6 col-lg-3 col-xl-4 col-xxl-5">
+        <div class="logo-wrapper col-sm-6 col-lg-3 col-xl-4 col-xxl-3">
           <svg class="logo-company" width="126" height="54">
             <use xlink:href="img/icons.svg#icon-logo-dananz"></use>
           </svg>
         </div>
-        <ul class="nav d-none d-lg-flex col-lg-9 col-xl-8 col-xxl-7 justify-content-lg-end list-unstyled">
+        <ul class="nav d-none d-lg-flex col-lg-9 col-xl-8 col-xxl-9 justify-content-lg-end list-unstyled">
           <li class="col-2">
             <a class="nav-link text-decoration-none" href="#">Home</a>
           </li>
@@ -46,23 +46,28 @@
           </button>
         </div>
       </header>
-      <section class="promo row d-sm-block d-lg-flex flex-nowrap align-items-start">
-        <h1 class="h1 col-sm-12 col-md-12 col-lg-6 col-xl-7 text-xl-start col-xxl-6 position-relative fw-bolder text-sm-center">Design your interor with high quality.</h1>
-        <ul class="works-counter d-sm-flex col-sm-12 justify-content-sm-around col-md-12 justify-content-md-between flex-lg-column col-lg-4 col-xl-3 col-xxl-2 pt-5 list-unstyled text-white text-center" >
-          <li class="works-item">
-            <h3>350+</h3>
-            <p>Project Completed</p>
-          </li>
-          <li class="works-item">
-            <h3>23+</h3>
-            <p>Professional Teams</p>
-          </li>
-          <li class="works-item">
-            <h3>15+</h3>
-            <p>Years Experience</p>
-          </li>
-        </ul>
-        <p class="reserved d-none d-lg-flex col-lg-2 col-xl-2 col-xxl-4 p-0">2020<br> ALL RIGHT RESERVED</p>
+      <section class="promo d-sm-block d-lg-flex flex-wrap align-items-start">
+        <div class="promo-wrapper d-xl-flex justify-content-xl-between">
+          <h1 class="promo-title col-sm-12 col-md-12 col-lg-6 col-xl-6 text-lg-start col-xxl-6 position-relative fw-bolder text-sm-center">Design your interor with high quality.</h1>
+          <p class="reserved d-none d-xl-block align-self-xl-center col-xl-6 col-xxl-6">2020<br> ALL RIGHT RESERVED</p>
+        </div>
+        <div class="promo-content-wrapper d-lg-flex">
+          <img class="promo-img col-lg-9 col-xl-12 me-lg-4" src="img/promo-kitchen-img.jpg" alt="Kitchen design">
+            <ul class="works-counter d-sm-flex col-sm-12 justify-content-sm-around col-md-12 justify-content-md-between flex-lg-column col-lg-3 mb-lg-0 list-unstyled text-white text-center" >
+              <li class="works-item">
+                <h3>350+</h3>
+                <p>Project Completed</p>
+              </li>
+              <li class="works-item">
+                <h3>23+</h3>
+                <p>Professional Teams</p>
+              </li>
+              <li class="works-item">
+                <h3>15+</h3>
+                <p>Years Experience</p>
+              </li>
+            </ul>
+        </div>
       </section>
       <section class="about">
         <h2 class="about-header position-relative text-uppercase mb-5 h-2">About</h2>
@@ -93,7 +98,7 @@
           </div>
         </div>
       </section>
-      <section class="services w-100 mx-0 position-relative row">
+      <section class="services w-100 mx-0 position-relative">
         <h2 class="services-title position-relative col-sm-12 mb-5 text-uppercase">Service</h2>
         <div class="services-wrapper z-1">
           <p class="services-description col-sm-12 ps-lg-0 mb-5">Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectat ions.</p>

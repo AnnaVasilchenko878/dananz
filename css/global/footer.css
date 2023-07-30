@@ -1,0 +1,30 @@
+.footer {
+  padding-bottom: 8%;
+}
+@media(min-width: 992px) {
+  .footer{
+    height: 400px;
+    padding: 0 4%; 
+  }
+}
+@media(min-width: 1400px) {
+  .footer {
+  padding-bottom: 0px;
+  }
+}
+.logo-footer {
+  padding-top: 60px;
+}
+
+.logo-subtitle {
+  color: var(--color-dark-grey);
+  font-size: 24px;
+}
+
+@media(min-width: 992px) {
+  .logo-subtitle {
+    font-size: 30px;
+    padding-right: 12%;
+    line-height: 50px;
+  }
+}
