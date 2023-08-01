@@ -6,20 +6,38 @@
   width: 71%;
   left: 27%;
 }
+.achievement-subtitle {
+  color: var(--bs-black);
+}
 
 @media(min-width: 992px) {
   .achievement-title::before {
     width: 46%;
     left: 17%;
   }
-  .achievent-subtitle {
+  .achievement-subtitle {
     padding-right: 45%;
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .achievement-img {
+    width: 100%;
+    margin-right: 5px;
   }
 }
 
 @media(min-width: 1200px) {
   .achievent-subtitle {
     padding-right: 55%;
+  }
+
+  .achievement-img {
+    width: 78%;
+    margin-right: 31px;
+  }
+  .achievement-counter {
+    position: static;
+    width: 20%;
   }
 }
 
@@ -45,8 +63,3 @@
   }
 }
  
-@media(min-width: 1400px) {
-  .achievement-img {
-    width: 1200px;
-  }
-}
