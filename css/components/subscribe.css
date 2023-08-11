@@ -1,15 +1,9 @@
 .subscribe {
   margin-bottom: 47px;
 }
-@media(min-width: 992px) {
-  .subscribe{
-    margin-top: 65px;
-  }
-}
 .subscribe-subtitle {
   color: var(--color-dark-grey);
 }
-
 .subscribe-subtitle:before {
   content: "";
   width: 14px;
@@ -20,41 +14,45 @@
   top: 29%;
   left: 11%;
 }
-
-@media(min-width: 768px) {
-  .subscribe-subtitle:before {
-    left: 21%;
-  }
-}
-
-@media(min-width: 992px) {
-  .subscribe-subtitle:before {
-    left: -7%;
-  }
-}
-
 .subscribe-input {
   border: none;
   border-bottom: 1px solid var(--color-border);
   padding-right: 20%;
   background-color: transparent;
 }
-
 .subscribe-input::placeholder {
   color: var(--color-grey);
   text-transform: capitalize;
   font-size: 16px;
 }
-
 .subscribe-btn {
   border: none;
   background-color: transparent;
   right: 17%;
 }
+.subscribe-icon {
+  width: 25px;
+  height: 25px;
+}
 
 @media(min-width: 768px) {
+  .subscribe-subtitle:before {
+    left: 21%;
+  }
   .subscribe-btn {
     right: 24%;
+  }
+}
+
+@media(min-width: 992px) {
+  .subscribe{
+    margin-top: 65px;
+  }
+  .subscribe-subtitle:before {
+    left: -7%;
+  }
+  .subscribe-btn {
+    right: 4%;
   }
 }
 
@@ -62,9 +60,4 @@
   .subscribe-btn {
     right: 8%;
   }
-}
-
-.subscribe-icon {
-  width: 25px;
-  height: 25px;
 }
