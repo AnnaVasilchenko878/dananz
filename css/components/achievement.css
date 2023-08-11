@@ -7,6 +7,7 @@
   left: 27%;
 }
 .achievement-subtitle {
+  font-size: 24px;
   color: var(--bs-black);
 }
 

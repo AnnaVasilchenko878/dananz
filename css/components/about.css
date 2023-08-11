@@ -5,7 +5,8 @@
 .services-title,
 .product-title,
 .material-title,
-.achievement-title {
+.achievement-title,
+.about-service-title {
   font-size: 18px;
   color: var(--bs-black);
 
@@ -14,7 +15,8 @@
 .services-title::before,
 .product-title::before,
 .material-title::before,
-.achievement-title::before {
+.achievement-title::before,
+.about-service-title::before {
   content: "";
   position: absolute;
   width: 75%;
@@ -29,7 +31,8 @@
   .services-title::before,
   .product-title::before,
   .material-title::before,
-  .achievement-title::before {
+  .achievement-title::before,
+  .about-service-title::before {
     width: 40%;
   }
 }
@@ -93,6 +96,11 @@
 .services {
   margin-bottom: 12%;
 }
+.services-subtitle {
+  font-size: 24px;
+  color: var(--bs-black);
+}
+
 .services-img {
   width: 100%;
 }

@@ -1,0 +1,100 @@
+.about-service {
+  margin-bottom: 10%;
+}
+.about-service-subtitle {
+  font-size: 24px;
+  color: var(--bs-black);
+}
+.about-service-list {
+  max-width: 450px;
+}
+.about-service-description {
+  padding: 0 5%;
+  margin-bottom: 5%;
+}
+.about-service-item {
+  border: 1px solid #d9d9d9;
+  box-shadow: 0px 0px 5px 1px #0000001A;
+  padding: 130px 50px 20px 50px;
+  position: relative;
+}
+.about-service-item::before {
+  content: "";
+  width: 55px;
+  height:  55px;
+  position: absolute;
+  top: 63px;
+  left: 193px;
+  background-image: url("../../img/icon-like.svg");
+  background-repeat: no-repeat;
+}
+.about-service-item:nth-child(2)::before {
+  background-image: url("../../img/icon-design.svg")
+}
+.about-service-item:last-child::before {
+  background-image: url("../../img/icon-gear.svg")
+}
+.about-service-item-title {
+  color: var(--bs-black);
+  font-size: 24px;
+}
+
+@media(min-width: 768px) {
+  .about-service-list {
+    max-width: 100%;
+  }
+  .about-service-item {
+    padding-top: 49px;
+    padding-left: 19px;
+  }
+  /* Костыль */
+  .about-service-item-title {
+    width: 401px;
+    margin-right: 43px;
+  }
+  .about-service-item::before {
+    width: 40px;
+    height: 40px;
+    top: 49px;
+    left: 76px;
+  }
+}
+@media(min-width: 992px) {
+  .about-service-description {
+    padding-left: 0;
+    padding-right: 49%;
+  }
+  .about-service-item::before{
+    left: 94px;
+  }
+  .about-service-item:first-child::before{
+    top: 73px;
+  }
+}
+
+@media(min-width: 1200px) {
+  .about-service-description {
+    padding-right: 56%;
+  }
+  .about-service-item {
+    padding-top: 119px;
+    margin-right: 6px;
+  }
+  .about-service-item::before {
+    left: 147px;
+  }
+
+  .about-service-item:first-child::before {
+    top: 49px;
+  }
+
+  .about-service-item-title {
+    margin-right: 0;
+    width: 100%;
+  }
+  .about-service-item-description {
+    line-height: 30px;
+    font-size: 16px;
+  }
+}
+@media(min-width: 1400px) {}
