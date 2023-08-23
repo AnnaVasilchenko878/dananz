@@ -1,0 +1,44 @@
+.services-achievement-title {
+  margin-bottom: 10%;
+}
+.services-achievement-title::before {
+  left: 24%;
+}
+.services-achievement-item-title {
+  color: var(--color-dark-grey);
+}
+.services-achievement-wrapper {
+  padding: 0 5%;
+}
+.services-achievement-img {
+  width: 100%;
+}
+
+.services-achievement-item-description{
+  text-align: center;
+}
+@media(min-width: 768px) {
+  .services-achievement-title::before {
+    left: 19%;
+}
+  .services-achievement-img {
+    height: 350px;
+  }
+}
+@media(min-width: 992px) {
+  .services-achievement-img {
+    width: 60%;
+    margin-right: 3%;
+  }
+
+  .services-achievement-item-description{
+  text-align: justify;
+  font-size: 16px;
+  line-height: 29px;
+}
+}
+@media(min-width: 1200px) {
+    .services-achievement-item-description{
+    font-size: 19px;
+  }
+}

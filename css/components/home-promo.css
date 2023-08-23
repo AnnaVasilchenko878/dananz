@@ -1,0 +1,91 @@
+.home-promo {
+  background-image: url('../img/promo-kitchen-img.jpg');
+  background-size: 100%;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin-bottom: 10%;
+  margin-left: 0px;
+}
+
+.home-promo-title {
+  font-size: 72px;
+  margin-bottom: 80px;
+  margin-right: 6%;
+  color: var(--bs-black);
+}
+
+.home-promo-img {
+  width: 100%;
+}
+
+.home-reserved {
+    transform: translateY(12px) rotate(270deg); 
+    width: 16%;
+    color: var(--bs-black);
+    margin-right: -50px;
+
+}
+
+@media(min-width: 992px) {
+  .home-promo-title {
+  margin-bottom: 75px;
+  } 
+  .home-promo-img {
+    width: 72%;
+  }
+
+  .home-promo-title {
+    font-size: 53px;
+  } 
+    
+  .home-promo-title::before {
+  content: "";
+  width: 77%;
+  height: 2px;
+  top: 16%;
+  left: 80%;
+  position: absolute;
+  background-color: var(--bs-emphasis-color);
+  }
+}
+
+@media(min-width: 1200px) {
+  .home-promo-title {
+    margin-right: 3%;
+    padding-right: 48px;
+  }
+  
+  .home-promo-title::before { 
+    width: 727px;
+    left: 68%;
+  }
+
+  .home-promo-content-wrapper{
+  position: relative;
+  }
+
+ .home-promo-img {
+  width: 100%;
+ }
+}
+
+@media(min-width: 1400px) {
+    
+  .home-promo-title::before {
+    width: 795px;
+    left: 63%;
+  } 
+
+  .home-promo-title {
+    padding-right: 94px;
+  }
+  .home-promo-title::before {
+  top: 15%;
+  left: 63%;
+  }
+  .home-promo-wrapper {
+    width: 100%;
+  }
+}
+

@@ -21,3 +21,23 @@ body {
   --bs-gutter-x: 0;
   /* background-color: green;  */
 }
+.title {
+  font-size: 18px;
+  color: var(--bs-black);
+
+}
+.title::before {
+  content: "";
+  position: absolute;
+  width: 75%;
+  height: 2px;
+  top: 10px;
+  left: 100px;
+  background-color: var(--bs-emphasis-color);
+}
+
+@media(min-width: 992px) {
+  .title::before {
+    width: 40%;
+  }
+}

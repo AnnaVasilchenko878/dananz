@@ -1,0 +1,39 @@
+.home-service {
+  margin-bottom: 12%;
+}
+.home-service-subtitle {
+  font-size: 24px;
+  color: var(--bs-black);
+}
+.home-service-img {
+  width: 100%;
+}
+@media(min-width: 992px) {
+  .home-service {
+    margin-bottom: 40%;
+  }
+  .home-service-wrapper {
+    width: 65%;
+    background-color: var(--bs-white); 
+  }
+}
+
+@media(min-width: 576px) {
+  .home-service-description {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+@media(min-width: 992px) {
+  .home-service-description {
+    padding-right: 24%;
+  }
+}
+
+@media(min-width: 992px) {
+  .home-service-img {
+    position: absolute;
+    left: 0;
+    top: 62%;
+  }
+}

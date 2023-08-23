@@ -1,27 +1,27 @@
-.achievement {
+.about-achievement {
   position: relative;
   margin-bottom: 9%;
 }
-.achievement-title::before {
+.about-achievement-title::before {
   width: 71%;
   left: 27%;
 }
-.achievement-subtitle {
+.about-achievement-subtitle {
   font-size: 24px;
   color: var(--bs-black);
 }
 
 @media(min-width: 992px) {
-  .achievement-title::before {
+  .about-achievement-title::before {
     width: 46%;
     left: 17%;
   }
-  .achievement-subtitle {
+  .about-achievement-subtitle {
     padding-right: 45%;
     font-size: 36px;
     line-height: 40px;
   }
-  .achievement-img {
+  .about-achievement-img {
     width: 100%;
     margin-right: 5px;
   }
@@ -32,33 +32,33 @@
     padding-right: 55%;
   }
 
-  .achievement-img {
+  .about-achievement-img {
     width: 78%;
     margin-right: 31px;
   }
-  .achievement-counter {
+  .about-achievement-counter {
     position: static;
     width: 20%;
   }
 }
 
 @media(min-width: 1400px) {
-  .achievent-subtitle {
+  .about-achievent-subtitle {
     padding-right: 61%;
   }
 }
 
-.achievement-img {
+.about-achievement-img {
   width: 100%;
 
 }
 @media(min-width: 768px) {
-  .achievement-img {
+  .about-achievement-img {
     height: 450px;
   }
 }
 @media(min-width: 992px) {
-  .achievement-img {
+  .about-achievement-img {
     width: 77% ;
     height: 508px; 
   }

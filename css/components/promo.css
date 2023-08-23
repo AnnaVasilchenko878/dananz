@@ -1,117 +1,46 @@
+
 .promo {
-  background-image: url('../img/promo-kitchen-img.jpg');
-  background-size: 100%;
-  background-position-y: bottom;
-  background-repeat: no-repeat;
-  width: 100%;
-  margin-bottom: 10%;
-  margin-left: 0px;
-}
-
-.promo-title {
-  font-size: 72px;
-  margin-bottom: 80px;
-  margin-right: 6%;
   color: var(--bs-black);
+  margin-bottom: 10%;
 }
-
-.promo-img {
-  width: 100%;
+.promo-title {
+  font-size: 56px;
+  line-height: 74px;
 }
-
-.works-counter {
-  background-color: var(--color-primary-blue);
-  padding: 27px 7px;
-}
-.works-item {
-  padding: 6px;
-}
-
-.reserved {
-    transform: translateY(12px) rotate(270deg); 
-    width: 16%;
-    color: var(--bs-black);
-    margin-right: -50px;
-
+.promo-subtitle {
+  line-height: 30px;
+  padding: 0 8%; 
 }
 
 @media(min-width: 992px) {
-    .promo {
-  margin-bottom: 75px;
-  } 
-  .promo-img {
-    width: 72%;
-  }
-
-  .promo-title {
-    font-size: 53px;
-  } 
-    
-  .promo-title::before {
-  content: "";
-  width: 77%;
-  height: 2px;
-  top: 16%;
-  left: 80%;
-  position: absolute;
-  background-color: var(--bs-emphasis-color);
+  .promo-subtitle {
+      padding: 0 20%;
+      margin-bottom: 5%;
   }
 }
 
 @media(min-width: 1200px) {
-  .promo-title {
-    margin-right: 3%;
-    padding-right: 48px;
-  }
-  
-  .promo-title::before { 
-    width: 727px;
-    left: 68%;
-  }
-
-  .promo-content-wrapper{
-  position: relative;
- }
-
- .promo-img {
-  width: 100%;
- }
-
-  .works-counter {
-    position: absolute;
-    top: -172px;
-    left: 662px;
-    padding: 45px 0px;
+  .promo-subtitle {
+      padding: 0 24%;
   }
 }
 
 @media(min-width: 1400px) {
-    
-  .promo-title::before {
-    width: 795px;
-    left: 63%;
-  } 
-  .works-counter {
-    position: absolute;
-  }
-
-  .promo-title {
-    padding-right: 94px;
-  }
-  .promo-title::before {
-  top: 15%;
-  left: 63%;
-  }
-  .promo-wrapper {
-    width: 100%;
+  .promo-subtitle {
+      padding: 0 28%;
   }
 }
-
-
-@media(min-width:768px) and (max-width: 992px) {
-  .works-counter {
-      padding-left: 53px;
-      padding-right: 53px;
-  }
+.promo-img {
+  width: 100%;
 }
 
+@media(min-width: 768px) {
+  .promo-img {
+    height: 450px;
+  }
+}
+@media(min-width: 992px) {
+  .promo-img {
+    height: 475px;
+  }
+}

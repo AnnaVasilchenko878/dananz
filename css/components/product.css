@@ -1,16 +1,28 @@
-@media(min-width: 992px) {
-  .product-wrapper {
-    padding-left: 5%;
-  }
+/*тот что из service*/
+.product {
+  counter-reset: list-item 0;
+  color: var(--color-dark-grey);
 }
-.product-subtitle,
-.achievent-subtitle  {
+
+.product-item::before {
+  content: "0"counter(list-item);
+  counter-increment: list-item;
+  position: absolute;
+  top: -1px;
+  left: -45px;
+  font-size: 22px;
+}
+/* ----------- */
+.product-subtitle {
  font-size: 24px;
  color: var(--color-dark-grey);
 }
 @media(min-width: 992px) {
+  .product-wrapper {
+    padding-left: 5%;
+  }
   .product-subtitle {
-    width: 23%;
+    width: 27%;
   }
   .product-description {
     width: 48%;
@@ -32,7 +44,7 @@
   padding-left: 12%;
   padding-right: 9%;
 }
-.item-wrapper {
+.product-item-wrapper {
   width: 65%;
 }
 

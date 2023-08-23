@@ -1,0 +1,37 @@
+.best-works-author-name {
+  color: var(--bs-black);
+}
+.best-works-content-wrapper {
+  text-align: justify;
+  padding-right: 8%;
+}
+.best-works-btn {
+  color: var(--bs-white);
+  width: 200px;
+  padding: 14px 32px;
+  background-color: var(--color-primary-blue);
+}
+
+@media(min-width: 1200px) {
+  .best-works-wrapper {
+      background-color: var(--bs-white); 
+      position: absolute;
+      top: 21px;
+      left: -174px;
+      padding: 4px 52px 4px 20px;
+      width: 350px;
+  }
+  .best-works-author-img {
+    width: 50px;
+    height: 56px;
+  }
+  
+  .best-works-author-name {
+    font-size: 18px;
+    margin-bottom: -5px;
+  }
+  .best-works-content-wrapper {
+    margin-top: 40%;
+    margin-left: 6%;
+  }
+}

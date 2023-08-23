@@ -1,0 +1,19 @@
+.home-about {
+  margin-bottom: 14%;
+}
+
+.home-about-blockquote {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding-right: 69px;
+  padding-left: 65px;
+  margin-bottom: 60px;
+  color: var(--bs-black);
+}
+
+@media(min-width: 1200px) {
+  .home-about-blockquote {
+    padding: 0 170px;
+  }
+}
+

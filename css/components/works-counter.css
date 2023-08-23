@@ -1,0 +1,23 @@
+.works-counter {
+  background-color: var(--color-primary-blue);
+  padding: 27px 7px;
+}
+.works-item {
+  padding: 6px;
+}
+
+@media(min-width:768px) and (max-width: 992px) {
+  .works-counter {
+      padding-left: 53px;
+      padding-right: 53px;
+  }
+}
+
+@media(min-width: 1200px) {
+    .works-counter {
+    position: absolute;
+    top: -172px;
+    left: 662px;
+    padding: 45px 0px;
+  }
+}
