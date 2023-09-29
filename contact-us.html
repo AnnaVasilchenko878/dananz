@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Contact Us</title>
+</head>
+<body>
+    <div class="container no-gutter">
+      <header class="header d-flex py-4 text-capitalize">
+        <div class="col-sm-6 col-lg-3 col-xl-4 col-xxl-3">
+          <svg class="logo-company" width="126" height="54">
+            <use xlink:href="img/icons.svg#icon-logo-dananz"></use>
+          </svg>
+        </div>
+        <ul class="nav d-none d-lg-flex col-lg-9 col-xl-8 col-xxl-9 justify-content-lg-end list-unstyled">
+          <li class="col-2">
+            <a class="nav-link text-decoration-none" href="#">Home</a>
+          </li>
+          <li class="col-2">
+            <a class="nav-link text-decoration-none" href="#">Abount us</a>
+          </li>
+          <li class="col-2">
+            <a class="nav-link text-decoration-none" href="#">Services</a>
+          </li>
+          <li class="col-3">
+            <a class="nav-link text-decoration-none" href="#">Our teams</a>
+          </li>
+          <li class="col-3 text-end">
+            <a class="nav-link btn-contact pt-3 pe-4 pb-3 ps-4 text-decoration-none text-white text-center" href="#">Contact us</a>
+          </li>
+        </ul>
+        <div class="btn-wrapper d-sm-flex d-lg-none col-sm-6 justify-content-end">
+          <button class="btn-open btn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="25" height="25">
+              <use xlink:href="img/icons.svg#icon-menu-open"></use>
+            </svg>
+          </button>
+          <button class="btn btn-close disable">
+            <svg width="25" height="25">
+              <use xlink:href="img/icons.svg#icon-menu-close"></use>
+            </svg>
+          </button>
+        </div>
+      </header>
+      <main class="contact-us">
+        <section class="promo d-flex flex-column align-items-center">
+          <h1 class="promo-title mb-md-4 text-capitalize fw-bolder">Contact us</h1>
+          <p class="promo-subtitle text-center fw-medium">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+         </section>
+         <section class="contact-us-form">
+          <form class="d-flex flex-column align-items-center" action="#">
+            <ul class="contact-us-form-list d-flex flex-column flex-lg-row flex-wrap align-items-start justify-content-between list-unstyled">
+              <li class="contact-us-form-item d-lg-flex flex-column">
+                <label class="contact-us-form-label" for="user-name">First name</label>
+                <input class="contact-us-form-input" type="text" id="user-name" placeholder="First name">
+              </li>
+              <li class="contact-us-form-item d-lg-flex flex-column">
+                <label class="contact-us-form-label" for="user-last-name">Last name</label>
+                <input class="contact-us-form-input" type="text" id="user-last-name" placeholder="Last name">
+              </li>
+              <li class="contact-us-form-item d-lg-flex flex-column">
+                <label class="contact-us-form-label" for="user-email">Email</label>
+                <input class="contact-us-form-input" type="text" id="user-email" placeholder="Email">
+              </li>
+              <li class="contact-us-form-item d-lg-flex flex-column position-relative">
+                <label class="contact-us-form-label" for="phone-number">Phone number</label>
+                <select class="contact-us-form-region position-absolute" name="phone-region">
+                  <option value="belarus">BY</option>
+                  <option value="hong-kong">HK</option>
+                  <option value="greece">GR</option>
+                  <option value="india">IN</option>
+                  <option value="russia">RU</option>
+                </select>
+                <input class="contact-us-form-input" type="text" id="user-email" placeholder="Phone">
+              </li>
+              <li class="contact-us-form-item d-lg-flex flex-column">
+                <label class="contact-us-form-label align-top" for="user-message">Message</label>
+                <textarea class="contact-us-form-message" name="message" id="user-message" cols="25" rows="2" placeholder="Your message"></textarea>
+              </li>
+              <li class="offset-lg-5 align-self-center">
+                <button class="contact-us-form-btn btn">Send message</button>
+              </li>
+            </ul>
+          </form>
+         </section>
+      </main>
+    </div>
+</body> 
