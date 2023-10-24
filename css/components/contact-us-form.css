@@ -1,5 +1,6 @@
 .contact-us-form {
   color: var(--color-dark-grey);
+  margin-bottom: 10%;
 }
 .contact-us-form-list {
   width: 80%;

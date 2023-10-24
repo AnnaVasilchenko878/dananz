@@ -1,0 +1,49 @@
+.contact-us-locaton-list {
+  background-color: red;
+}
+.contact-us-location-item {
+}
+.contact-us-location-item h3,
+.contact-us-location-city-item h3 {
+  color: var(--color-dark-grey);
+  font-size: 24px;
+}
+.contact-us-location-item:first-child h3 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+.contact-us-location-city-item {
+  padding: 0 60px;
+}
+.contact-us-location-city-item p {
+  text-align: justify;
+  line-height: 28px;
+}
+
+@media (min-width: 768px) {
+  .contact-us-location-city-item {
+  padding: 0 142px;
+}
+}
+@media(min-width: 992px) {
+.contact-us-location-list {
+  width: 40%;
+}
+.contact-us-locacion-city-list {
+  width: 60%;
+  }
+  .contact-us-location-city-item {
+    padding: 0 95px;
+    margin-bottom: 25px;
+  }
+  .contact-us-location-city-item p {
+    text-align: start;
+  }
+}
+
+@media(min-width: 1200px) {
+  .contact-us-location-city-item {
+    width: 45%;
+    padding: 0;
+  }
+}
