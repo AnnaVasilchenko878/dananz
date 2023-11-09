@@ -1,10 +1,12 @@
 .footer {
   padding-bottom: 8%;
+  margin-top: 500px;
 }
 @media(min-width: 992px) {
   .footer{
     height: 400px;
     padding: 0 4%; 
+    margin-top: 431px;
   }
 }
 @media(min-width: 1400px) {

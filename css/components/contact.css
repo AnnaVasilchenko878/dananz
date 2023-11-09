@@ -1,6 +1,8 @@
 .contact {
   background-color: var(--color-primary-blue);
   padding: 53px 61px;
+  width: 100%;
+  left: 0;
 }
 .contact-subtitle {
   font-size: 24px;

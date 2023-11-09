@@ -31,9 +31,6 @@
   .home-promo-title {
   margin-bottom: 75px;
   } 
-  .home-promo-img {
-    width: 72%;
-  }
 
   .home-promo-title {
     font-size: 53px;
@@ -41,10 +38,10 @@
     
   .home-promo-title::before {
   content: "";
-  width: 77%;
+  width: 89%;
   height: 2px;
   top: 16%;
-  left: 80%;
+  left: 94%;
   position: absolute;
   background-color: var(--bs-emphasis-color);
   }
@@ -57,8 +54,8 @@
   }
   
   .home-promo-title::before { 
-    width: 727px;
-    left: 68%;
+    width: 115%;
+    left: 85%;
   }
 
   .home-promo-content-wrapper{

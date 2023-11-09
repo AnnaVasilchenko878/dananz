@@ -5,6 +5,9 @@
   font-size: 24px;
   color: var(--bs-black);
 }
+.home-service-description {
+  text-align: center;
+}
 .home-service-img {
   width: 100%;
 }

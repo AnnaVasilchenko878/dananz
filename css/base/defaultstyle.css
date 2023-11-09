@@ -4,22 +4,16 @@ body {
   font-size: 18px;
   line-height: 38px;
   color: var(--color-light-grey);
-  max-width: 1440px;
   margin: 0 auto;
 }
-@media(min-width: 992px) {
-  body {
-    padding: 0 4%;
-  } 
+.main-container {
+  max-width: 1440px;
+  background-color: red;
 }
-@media(min-width: 1400px) {
-  body {
-    padding: 0 120px;
-  }
-}
+
 .container {
+  background: green;
   --bs-gutter-x: 0;
-  /* background-color: green;  */
 }
 .title {
   font-size: 18px;
@@ -37,7 +31,20 @@ body {
 }
 
 @media(min-width: 992px) {
-  .title::before {
+  body {
+    padding: 0 4%;
+  }
+    .title::before {
     width: 40%;
   }
+  .container {
+  background: green;
+  --bs-gutter-x: 1.5rem;
+} 
 }
+@media(min-width: 1400px) {
+  body {
+    padding: 0 120px;
+  }
+}
+

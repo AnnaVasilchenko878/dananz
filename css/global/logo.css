@@ -14,3 +14,10 @@
     line-height: 50px;
   }
 }
+
+@media(min-width: 992px) {
+  footer .logo {
+    padding-top: 0;
+    margin-right: -44px;
+  }
+}

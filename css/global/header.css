@@ -18,3 +18,8 @@
 .disable {
   display: none;
 }
+@media(min-width: 992px) {
+  .nav-link {
+    padding: 8px 0; 
+  }
+}

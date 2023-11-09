@@ -1,7 +1,10 @@
-/*тот что из service*/
+
 .product {
   counter-reset: list-item 0;
   color: var(--color-dark-grey);
+}
+.product-description {
+  padding: 0 15px;
 }
 
 .product-item::before {
@@ -9,31 +12,15 @@
   counter-increment: list-item;
   position: absolute;
   top: -1px;
-  left: -45px;
+  left: -47px;
   font-size: 22px;
 }
-/* ----------- */
+
 .product-subtitle {
  font-size: 24px;
  color: var(--color-dark-grey);
 }
-@media(min-width: 992px) {
-  .product-wrapper {
-    padding-left: 5%;
-  }
-  .product-subtitle {
-    width: 27%;
-  }
-  .product-description {
-    width: 48%;
-  }
-}
-@media(min-width: 1200px) {
 
-  .product-description {
-    width: 45%;
-  }
-}
 .product-item-title {
   color: var(--color-dark-grey);
 }
@@ -53,9 +40,22 @@
     width: 70%;
   }
 }
-.product-item::before {
-  left: -58px;
-  top: 1px;
-  font-weight: 700;
-  font-size: 25px
+
+@media(min-width: 992px) {
+  .product-wrapper {
+    padding-left: 5%;
+  }
+  .product-subtitle {
+    width: 27%;
+  }
+  .product-description {
+    width: 48%;
+  }
+}
+
+@media(min-width: 1200px) {
+
+  .product-description {
+    width: 45%;
+  }
 }
