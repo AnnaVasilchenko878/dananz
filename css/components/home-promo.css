@@ -21,9 +21,9 @@
 
 .home-reserved {
     transform: translateY(12px) rotate(270deg); 
-    width: 16%;
+    width: 17%;
     color: var(--bs-black);
-    margin-right: -50px;
+    margin-right: -62px;
 
 }
 
@@ -68,21 +68,19 @@
 }
 
 @media(min-width: 1400px) {
-    
-  .home-promo-title::before {
-    width: 795px;
-    left: 63%;
-  } 
-
+  
+  .home-promo-wrapper {
+    width: 100%;
+  }
+  
   .home-promo-title {
     padding-right: 94px;
   }
+
   .home-promo-title::before {
-  top: 15%;
-  left: 63%;
-  }
-  .home-promo-wrapper {
-    width: 100%;
+    width: 752px;
+    left: 63%;
+    top: 15%
   }
 }
 
