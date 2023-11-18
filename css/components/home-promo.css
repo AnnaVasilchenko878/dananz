@@ -4,7 +4,7 @@
   background-position-y: bottom;
   background-repeat: no-repeat;
   width: 100%;
-  margin-bottom: 10%;
+  margin-bottom: 50px;
   margin-left: 0px;
 }
 
@@ -21,7 +21,7 @@
 
 .home-reserved {
     transform: translateY(12px) rotate(270deg); 
-    width: 17%;
+    width: 19%;
     color: var(--bs-black);
     margin-right: -62px;
 
@@ -30,33 +30,31 @@
 @media(min-width: 992px) {
   .home-promo-title {
   margin-bottom: 75px;
+  padding: 0 12px;
   } 
 
   .home-promo-title {
     font-size: 53px;
   } 
     
-  .home-promo-title::before {
-  content: "";
-  width: 89%;
-  height: 2px;
-  top: 16%;
-  left: 94%;
-  position: absolute;
-  background-color: var(--bs-emphasis-color);
-  }
 }
 
 @media(min-width: 1200px) {
+    .home-promo-wrapper::before {
+    content: "";
+    width: 50%;
+    height: 2px;
+    position: absolute;
+    top: 5%;
+    right: 6%;
+    background-color: var(--bs-emphasis-color);
+  }
+
   .home-promo-title {
     margin-right: 3%;
     padding-right: 48px;
   }
   
-  .home-promo-title::before { 
-    width: 115%;
-    left: 85%;
-  }
 
   .home-promo-content-wrapper{
   position: relative;
@@ -68,19 +66,17 @@
 }
 
 @media(min-width: 1400px) {
-  
+  .home-promo-wrapper::before {
+    width: 634px;
+  }
+
   .home-promo-wrapper {
     width: 100%;
   }
-  
+
   .home-promo-title {
     padding-right: 94px;
   }
 
-  .home-promo-title::before {
-    width: 752px;
-    left: 63%;
-    top: 15%
-  }
 }
 

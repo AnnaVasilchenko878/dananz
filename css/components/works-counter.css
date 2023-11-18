@@ -5,6 +5,9 @@
 .works-item {
   padding: 6px;
 }
+.works-item h3 {
+  font-size: 30px;
+}
 
 @media(min-width:768px) and (max-width: 992px) {
   .works-counter {
@@ -17,7 +20,7 @@
     .works-counter {
     position: absolute;
     top: -172px;
-    left: 662px;
+    left: 618px;
     padding: 45px 0px;
   }
 }

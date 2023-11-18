@@ -1,5 +1,5 @@
 .home-service {
-  margin-bottom: 12%;
+  margin-bottom: 52px;
 }
 .home-service-subtitle {
   font-size: 24px;
@@ -13,7 +13,7 @@
 }
 @media(min-width: 992px) {
   .home-service {
-    margin-bottom: 40%;
+    margin-bottom: 297px;
   }
   .home-service-wrapper {
     width: 65%;

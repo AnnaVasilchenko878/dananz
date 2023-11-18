@@ -34,13 +34,18 @@ body {
   body {
     padding: 0 4%;
   }
-    .title::before {
+
+  .container {
+    background: green;
+    --bs-gutter-x: 4rem;
+  }
+  .title::before {
     width: 40%;
   }
-  .container {
-  background: green;
-  --bs-gutter-x: 1.5rem;
-} 
+  .home-product .title::before,
+  .home-material .title::before {
+    left: 14%
+  } 
 }
 @media(min-width: 1400px) {
   body {

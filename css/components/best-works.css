@@ -4,7 +4,9 @@
 .best-works-content-wrapper {
   text-align: justify;
   padding-right: 8%;
+  width: 52%;
 }
+
 .best-works-btn {
   color: var(--bs-white);
   width: 200px;
@@ -21,6 +23,7 @@
       padding: 4px 52px 4px 20px;
       width: 350px;
   }
+
   .best-works-author-img {
     width: 50px;
     height: 56px;
@@ -33,5 +36,7 @@
   .best-works-content-wrapper {
     margin-top: 40%;
     margin-left: 6%;
+    width: 100%;
+    line-height: 28px;
   }
 }

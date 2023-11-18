@@ -1,5 +1,5 @@
 .service {
-  margin-bottom: 10%;
+  margin-bottom: 50px;
 }
 .service-subtitle {
   font-size: 24px;
@@ -10,7 +10,7 @@
 }
 .service-description {
   padding: 0 5%;
-  margin-bottom: 5%;
+  margin-bottom: 15px;
 }
 .service-item {
   border: 1px solid #d9d9d9;

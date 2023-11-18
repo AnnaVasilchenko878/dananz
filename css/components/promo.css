@@ -1,7 +1,6 @@
-
 .promo {
   color: var(--bs-black);
-  margin-bottom: 10%;
+  margin-bottom: 50px;
 }
 .promo-title {
   font-size: 56px;
@@ -9,25 +8,27 @@
 }
 .promo-subtitle {
   line-height: 30px;
-  padding: 0 8%; 
+  padding: 0 8%;
+  margin-bottom: 20px; 
 }
+
 
 @media(min-width: 992px) {
   .promo-subtitle {
-      padding: 0 20%;
-      margin-bottom: 5%;
+      padding: 0 14%;
+      margin-bottom: 15px;
   }
 }
 
 @media(min-width: 1200px) {
   .promo-subtitle {
-      padding: 0 24%;
+    padding: 0 24%;
   }
 }
 
 @media(min-width: 1400px) {
   .promo-subtitle {
-      padding: 0 28%;
+    padding: 0 28%;
   }
 }
 .promo-img {
